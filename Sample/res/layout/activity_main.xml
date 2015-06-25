@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp">
+        
+        <TextView 
+            android:id="@+id/setPasstxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Set Password"
+            android:layout_gravity="center"/>
+        
+        <TextView 
+            android:id="@+id/enterPasstxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter Password"
+            android:layout_gravity="center"/>
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+        
+        <EditText 
+            android:id="@+id/editPass"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:hint="Password"
+            android:gravity="center"
+            android:layout_gravity="center"/>
+        
+        <Button 
+            android:id="@+id/okBtn"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:text="OK"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"/>
+        
+    </LinearLayout>
+    
+
+</LinearLayout>

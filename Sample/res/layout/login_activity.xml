@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/loading3"
+    android:orientation="vertical" >
+
+    <Spinner
+        android:id="@+id/AccCodeJson"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp"
+        android:layout_marginTop="80dp"
+        android:hint="Enter City Code"
+        android:spinnerMode="dropdown"
+        android:textColor="#000000"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/UserIdJson"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext_bg"
+        android:hint="Enter User Id"
+        android:imeOptions="actionNext"
+        android:singleLine="true"
+        android:text=""
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/PasswordJson"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext_bg"
+        android:hint="Enter Password"
+        android:imeOptions="actionNext"
+        android:password="true"
+        android:singleLine="true"
+        android:text=""
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="135dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="Login"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+</LinearLayout>
